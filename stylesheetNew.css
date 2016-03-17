@@ -1,0 +1,132 @@
+body {
+    width: 1000px;
+    padding: 100px;
+    font-family: arial;
+}
+
+main {
+  display: none;
+}
+
+section {
+  display: none;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #456789;
+    font-weight: bold;
+    text-align: right;
+    text-shadow: 1px 1px #344e67;
+}
+
+h2 {
+    font-weight: bold;
+    color: #456789;
+    font-size: 16px
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 15px;
+}
+h4 {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    color: #87888b;
+    text-shadow: 1px 0 #344e67;
+}
+
+h5 {
+    font-weight: bold;
+    color: #87888b;
+    text-shadow: 1px 0 #344e67;
+    font-size: 16px;
+}
+
+a {
+  color: #87888b;
+  text-decoration: none;
+}
+ul {
+  margin-top: 1px;
+}
+
+button {
+  float: right;
+}
+
+a:hover {
+  color: #456789;
+  text-decoration: underline;
+}
+
+.line {
+  color: #456789;
+  border: 1px solid;
+  box-shadow: 2px 3px 4px #344e67;
+}
+
+.body {
+  background-color: #ebf0f5;
+  width: 1020px;
+  padding: 10px;
+}
+
+.contact {
+  color: #87888b;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.bullets {
+  font-size: 15px;
+  color: #456789;
+}
+
+.quote {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  line-height: 25px;
+  background-color: #456789;
+  color: white;
+  border-radius: 15px;
+  border-bottom-right-radius: 40px;
+  box-shadow: 2px 3px 4px #344e67;
+  display: none;
+}
+
+
+.roles {
+    width:200px;
+    float:left;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #87888b;
+}
+
+.roles2 {
+    width:200px;
+    height: 400px;
+    float:left;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #87888b;
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
