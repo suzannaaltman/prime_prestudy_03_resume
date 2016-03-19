@@ -1,7 +1,8 @@
-body {
+body, header {
     width: 1000px;
-    padding: 100px;
+    padding: 25px;
     font-family: arial;
+    margin: 0 auto;
 }
 
 main {
@@ -56,6 +57,24 @@ ul {
 
 button {
   float: right;
+  color: #456789;
+  font-weight: bold;
+  background-color: #F2E066;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #344e67;
+  color: #87888b;
+  font-size: 12px;
+  text-align: center;
+  display: none;
+  padding: 3px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: fixed;
+  bottom: 0px;
+  width: 1000px;
 }
 
 a:hover {
@@ -99,8 +118,8 @@ a:hover {
   border-bottom-right-radius: 40px;
   box-shadow: 2px 3px 4px #344e67;
   display: none;
+  position: relative;
 }
-
 
 .roles {
     width:200px;
@@ -129,4 +148,16 @@ a:hover {
 }
 .group {
     zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.group:hover {
+  background-color: #D5E3F0;
+  border-radius: 15px;
+  border-bottom-right-radius: 40px;
+}
+
+.quote:hover {
+  top: -6px;
+  left: -6px;
+  box-shadow: 8px 9px 4px #344e67;
 }
